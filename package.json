@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Base backend com NodeJS, Express e MongoDB",
+  "main": "./src/index.js",
+  "scripts": {
+    "serve": "nodemon --exec babel-node ./src/index.js"
+  },
+  "author": "Taiane Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "slugify": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-plugin-module-alias": "^1.6.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "nodemon": "^2.0.14"
+  }
+}
